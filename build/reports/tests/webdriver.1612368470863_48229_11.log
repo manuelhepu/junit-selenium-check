@@ -1,0 +1,31 @@
+1612368471786	geckodriver	INFO	Listening on 127.0.0.1:22544
+1612368472996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehssTUl"
+*** You are running in headless mode.
+
+(firefox:48298): GLib-GObject-WARNING **: 17:07:54.294: invalid (NULL) pointer instance
+
+(firefox:48298): GLib-GObject-CRITICAL **: 17:07:54.294: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:48575): GLib-GObject-WARNING **: 17:07:55.731: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:48575): GLib-GObject-CRITICAL **: 17:07:55.731: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:48590): GLib-GObject-WARNING **: 17:07:56.252: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:48590): GLib-GObject-CRITICAL **: 17:07:56.253: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:48654): GLib-GObject-WARNING **: 17:07:59.402: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:48654): GLib-GObject-CRITICAL **: 17:07:59.402: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1612368479802	Marionette	INFO	Listening on port 40359
+1612368479927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612368488056	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1612368488470	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612368501677	Marionette	INFO	Stopped listening on port 40359

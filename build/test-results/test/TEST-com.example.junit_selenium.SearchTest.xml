@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.junit_selenium.SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-03T16:08:24" hostname="ubuntu" time="17.147">
+  <properties/>
+  <testcase name="google()" classname="com.example.junit_selenium.SearchTest" time="17.147"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Webdriver has been closed meanwhile. Let's re-create it.
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 11 -> FirefoxDriver: firefox on LINUX (null)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 11 in 1 ms
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /home/viewadmin/junit-selenium/build/downloads/1612368504466_48229_11
+[Test worker] INFO com.codeborne.selenide.webdriver.AbstractDriverFactory - Write webdriver logs to: /home/viewadmin/junit-selenium/build/reports/tests/webdriver.1612368504467_48229_11.log
+Feb 03, 2021 5:08:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=firefox Version=84.0.2 Platform=LINUX
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.16.2
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 11: FirefoxDriver -> FirefoxDriver: firefox on LINUX (6bf2a211-6fad-4204-838f-07bb91261fa3)
+]]></system-err>
+</testsuite>

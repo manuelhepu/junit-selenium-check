@@ -1,0 +1,2 @@
+com/example/junit_selenium/MainPage.java
+ com.example.junit_selenium.MainPage

@@ -1,0 +1,50 @@
+1612368318511	geckodriver	INFO	Listening on 127.0.0.1:31987
+1612368318561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDtqz1B"
+*** You are running in headless mode.
+
+(firefox:46790): GLib-GObject-WARNING **: 17:05:19.816: invalid (NULL) pointer instance
+
+(firefox:46790): GLib-GObject-CRITICAL **: 17:05:19.816: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:47032): GLib-GObject-WARNING **: 17:05:20.939: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:47032): GLib-GObject-CRITICAL **: 17:05:20.939: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:47052): GLib-GObject-WARNING **: 17:05:21.297: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:47052): GLib-GObject-CRITICAL **: 17:05:21.298: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:47108): GLib-GObject-WARNING **: 17:05:23.928: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:47108): GLib-GObject-CRITICAL **: 17:05:23.929: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1612368324331	Marionette	INFO	Listening on port 36011
+1612368324484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612368331843	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1612368340208	Marionette	INFO	Stopped listening on port 36011
+JavaScript error: https://www.imdb.com/find?q=wandavision&ref_=nv_sr_sm line 1 > injectedScript, line 43: TypeError: parent is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

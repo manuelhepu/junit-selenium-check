@@ -1,0 +1,8 @@
+com/example/junit_selenium/SearchTest.java
+ com.example.junit_selenium.SearchTest
+com/example/junit_selenium/MainPageTest.java
+ com.example.junit_selenium.MainPageTest
+com/example/junit_selenium/Robobar.java
+ com.example.junit_selenium.Robobar
+com/example/junit_selenium/SearchIMDB.java
+ com.example.junit_selenium.SearchIMDB
